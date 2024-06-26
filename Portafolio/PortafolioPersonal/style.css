@@ -44,14 +44,6 @@ body {
   position: relative;
 }
 
-/* Hola, en este video continuaremos agregando estilos al proyecto. 
-Para esto mismo deberemos utilizar las clases que utilizamos anteriormente en las etiquetas de html. 
-Comencemos siguiendo la estructura de nuestro documento html de arriba hacia abajo. Para facilitar esto
-escribamos la misma (comentarios: encabezado, principal, presentacion, articulo, seccion descripcion,
- pie de pagina) 
-recuerden que tambien teniamos elementos que podian repetirse en varios lugares de la pagina, los mismos 
-los escribiremos al final (comentarios: enlaces, botones, tarjetas) */
-
 /* encabezado */
 .encabezado {
   position: absolute;
