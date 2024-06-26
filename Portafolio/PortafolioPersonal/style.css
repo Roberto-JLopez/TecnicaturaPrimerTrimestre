@@ -103,7 +103,7 @@ body {
 
 .presentacion__titulo {
   font-size: var(--presentacion-titulo-tamanio);
-  color: var(--color-primario);
+  color: var(--texto-primario);
   text-shadow: 2px 2px 2px var(--fondo-secundario);
   /*  animation: cambiar-color 8s linear infinite alternate; */
 }
