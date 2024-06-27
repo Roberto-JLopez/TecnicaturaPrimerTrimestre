@@ -431,12 +431,7 @@ body {
   }
  
   .contenedor_tarjetas_grid {
-    flex-direction: column;
-    gap: 2rem;
-    align-items: center;
-    margin-top: auto;
     grid-template-columns: 1fr;
-    
   }
   
 }
