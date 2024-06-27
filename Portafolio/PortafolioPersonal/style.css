@@ -433,5 +433,13 @@ body {
   .contenedor_tarjetas_grid {
     grid-template-columns: 1fr;
   }
-  
+  .tarjeta__imagen{
+  width:25% ;
+   
+  }
+  .img{
+  max-width: 50%;
+  height: auto;
+  display: block
+  }
 }
