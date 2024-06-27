@@ -434,6 +434,13 @@ body {
     grid-template-columns: 3fr;
     margin-top: 14cm;
   }
+  .articulo__titulo{
+    padding: auto;
+    flex-direction: column;
+    margin-left: auto;
+    margin: auto;
+    margin-top: auto;
+  }
   .tarjeta__imagen{
   width:25% ;
    
@@ -454,6 +461,12 @@ body {
     margin-top: auto;
   }
   
- 
+  .articulo__titulo2{
+    padding: auto;
+    align-items: center;
+    gap: 100rem; 
+    display: ;
+    align-items: center;
+  }
   
 }
