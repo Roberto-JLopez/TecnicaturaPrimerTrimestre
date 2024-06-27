@@ -431,7 +431,8 @@ body {
   }
  
   .contenedor_tarjetas_grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 3fr;
+    margin-top: 14cm;
   }
   .tarjeta__imagen{
   width:25% ;
@@ -442,4 +443,17 @@ body {
   height: auto;
   display: block
   }
+ 
+
+  .articulo__contenedor_descripciones{
+  
+    grid-template-columns: 1fr;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin-top: auto;
+  }
+  
+ 
+  
 }
