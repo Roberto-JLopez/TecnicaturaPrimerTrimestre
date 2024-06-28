@@ -3,7 +3,9 @@ COMANDOS DE GIT:
 
 Usar la flecha hacía arriba nos muestra el último comando utilizado
 
-1.	Configuración Inicial
+
+ # 1.	Configuración Inicial
+
 
 ``` 
 git config --global user.name "Tu Nombre"
@@ -25,7 +27,9 @@ git config --global core.editor "tu_editor"
 Git config --list
 ```
 
-2.	Creación y Clonación de Repositorios
+
+# 2.	Creación y Clonación de Repositorios
+
 
 ```
 git init	
@@ -44,7 +48,9 @@ Git checkout hash
 ```
 #direccion o hash de commit que quiero cargar
 
-3.	Trabajando Con Carpetas
+
+# 3.	Trabajando Con Carpetas
+
 
 ```
 mkdir <<nombre_carpeta>>
@@ -68,7 +74,7 @@ git reset
 
 
 
-4.	Trabajando con Archivos
+# 4.	Trabajando con Archivos
    
 ```
 git status
@@ -113,18 +119,18 @@ Git commit –am “escribimos el comentario de nuestro commit”
 ```
 git rm <<archivo>>
 ```
-# Elimina un archivo del
+#Elimina un archivo del
 repositorio y lo registra para el próximo commit.
 
 ```
 rm <<archivo>>
 ```
-#elimina archivo
+elimina archivo
 
 ```
 git rm --cached <<nombre_archivo>>
 ```
-#(para eliminar un archivos del
+(para eliminar un archivos del
 area de preparacion)
 
 ```
@@ -133,7 +139,7 @@ git restore --stage «nombre del archivo»
 #vuelve el archivo al area de
 trabajo y poder modificarlos
 
-5.	Inspección y Comparación
+# 5.	Inspección y Comparación
 
 ```
 git log
@@ -198,7 +204,7 @@ git branch -d <<nombre_rama>>
 git merge <<mi-rama-secundaria>>
 ```
 
-# Fusiona la rama secundaria en
+Fusiona la rama secundaria en
 la rama principal: Utiliza el
 comando git merge seguido del nombre de la rama secundaria que deseas fusionar en la rama
 principal. Por ejemplo, si tu rama secundaria se llama mi-rama-
@@ -207,7 +213,7 @@ secundaria, ejecutarías:(estando en la rama master)
 
 
 
-7.	Remotos (Remotes)
+# 7.	Remotos (Remotes)
    
 ```
 git remote add <<carpeta_local>> <<URL>>
@@ -274,7 +280,7 @@ git push --set-upstream curso-git master	En este caso lo que realizo es cuando h
 
 
 
-8.	Revertir Cambios
+# 8.	Revertir Cambios
    
 ```
 git reset --hard HEAD
@@ -293,7 +299,7 @@ git revert commit
 #Crea un nuevo commit que revierte los cambios de un commit específico.
 
 
-9.	Stashing
+# 9.	Stashing
     
 ```
 git stash
@@ -317,7 +323,7 @@ git stash pop
 #Aplica el último stash guardado y lo elimina de la lista de stashes.
 
 
-10.	Etiquetas (Tags)
+# 10.	Etiquetas (Tags)
     
 ```
 git tag
@@ -339,7 +345,7 @@ repositorio remoto.
 
 
 
-11.	Búsqueda y Navegación
+# 11.	Búsqueda y Navegación
     
 ```
 git grep "texto"
