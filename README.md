@@ -14,7 +14,7 @@ Configura tu nombre de usuario
 para todos tus repositorios. 
 
 ```
-it config --global user.email tuemail@example.com
+git config --global user.email tuemail@example.com
 ``` 
 #Configura tu correo electrónico.
 
