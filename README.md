@@ -332,7 +332,7 @@ git tag
 existentes.
 
 ```
-git tag >>nombre_etiqueta<<
+git tag -a >>nombre_etiqueta<<
 ```
 #Crea una nueva etiqueta. git tag -a <<nombre_etiqueta>> -m "Mensaje de la etiqueta"
 #Crea una nueva etiqueta anotada.
