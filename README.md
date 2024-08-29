@@ -66,8 +66,11 @@ rmdir <<nombre_carpeta>>
 ```
 rm -rf <<nombre_carpeta>>
 ```
-#borra la carpeta, con los archivos dentrogit git rm --cached -r <<nombre_carpeta>>
+#borra la carpeta, con los archivos dentro
 
+```
+git git rm --cached -r <<nombre_carpeta>>
+```
 #borra una carpeta del area preparación de con sus archivos dentro git
  
 git reset
